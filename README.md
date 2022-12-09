@@ -7,10 +7,10 @@ This is the implementation for the paper 'Towards the oracle: a goal-aware explo
 - `gym`: 0.17.2
 
 ### Overview Framework
-
+![Image text](https://github.com/pinqian77/GEMS/blob/main/figures/framework.png)
 The proposed method is mainly composed of three parts. The oracle module is trained by data containing future information and learns an optimal policy to provide instruction to the student module. The student module is trained under the guidance of the oracle and is composed of two-layer controllers. The higher-level controller is for goal generation and the lower-level controller is for trade execution. The third module provides a goal-aware exploration mechanism, which allows the agent to perform actions rationally following the goal. Note that the oracle module only provides guidance during the training session. During the testing phase, the decision-making of the action is done by the student alone.
 
 ### Results
 Each algorithm is trained for 200 episodes. Each episode selects an 1000-step consecutive holding period at random. 
-
+![Image text](https://github.com/pinqian77/GEMS/blob/main/figures/results.png)
 Further interpretation work will be presented in the paper.
