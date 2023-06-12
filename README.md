@@ -13,4 +13,3 @@ The proposed method is mainly composed of three parts. The oracle module is trai
 ### Results
 Each algorithm is trained for 200 episodes. Each episode selects an 1000-step consecutive holding period at random. 
 ![Image text](https://github.com/pinqian77/GEMS/blob/main/figures/results.png)
-Further interpretation work will be presented in the paper.
